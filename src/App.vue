@@ -10,7 +10,7 @@
             </div>
             <div>
                 <label for="">课程价格：</label>
-                <input type="text" v-model="price" />
+                <input type="number" v-model="price" />
             </div>
             <button @click="addCourseList">添加到课程列表</button>
         </div>
@@ -74,6 +74,14 @@ export default {
     methods: {
         //添加课程
         addCourseList() {
+            if(!this.name){
+                alert('请输入课程名称!') 
+                return
+            }
+            if(!this.price){
+                alert('请输入课程价格!')
+                return
+            }
             this.courseList.push({
                 name: this.name,
                 price: this.price,
