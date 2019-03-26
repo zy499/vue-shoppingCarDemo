@@ -1,5 +1,4 @@
 <!--  -->
-import { match } from 'minimatch';
 <template>
     <div class="">
         <h3>购物车</h3>
