@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1 :style="{ textAlign: 'center' }">购物车hhhhh</h1>
+        <h1 :style="{ textAlign: 'center' }">购物车hhhDdhh</h1>
         <hr />
         <div>
             <h3>添加课程</h3>
